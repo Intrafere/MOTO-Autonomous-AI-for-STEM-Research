@@ -39,10 +39,11 @@ Before installation, you need:
 1. **Python 3.8+** - [Download here](https://www.python.org/downloads/)
    - ⚠️ **IMPORTANT**: Check "Add Python to PATH" during installation
 2. **Node.js 16+** - [Download here](https://nodejs.org/)
-3. **LM Studio** (optional but recommended) - [Download here](https://lmstudio.ai/)
-   - Download and load at least one model (e.g., DeepSeek, Llama, Qwen)
-   - **Optional But Recommended (faster outputs)**: Load the embedding model `nomic-ai/nomic-embed-text-v1.5`
+3. **LM Studio** (optional but HIGHLY recommended - otherwise your system will need to pay OpenRouter for RAG embedding calls, which is very slow compared to LM studio's local embeddings) - [Download here](https://lmstudio.ai/)
+   - If using open router, then download and load at least one model (e.g., DeepSeek, Llama, Qwen - older models and some models below 12 billion parameters may struggle, however it is always worth a try!)
+   - **Load the LM Studio RAG agent [optional but HIGHLY recommended for much faster outputs/answers]**: Load the embedding model `nomic-ai/nomic-embed-text-v1.5` in your LM studio "Developer" tab (server tab) (search for "nomic-ai/nomic-embed-text-v1.5" to download it in the LM studio downloads center). Please note: you may need to enable "Power User" or "Developer" to see this developer tab - this server will let you load the amount and capacity of simultaneous models that your PC will suport. In this develop tab is where you load both your nomic-ai embedding agent and any optional local hosted agents you want to use in the program (I.e. GPT OSS 20b, DeepSeek 32B, etc). **If you do not not download LM studio and enable the Nomic agent the system will run much slower and cost a slightly more due to having to use the paid service OpenRouter for RAG calls.**
    - Start the local server (port 1234)
+4.) **If using cloud AI - Get an OpenRouter API key**: Sign up at OpenRouter.ai and get a paid or free API key to use the most powerful cloud models available from your favorite providers. OpenRouter may also offer a certain amount of free API calls per day with your account key. When you download the MOTO deep research harness, you can see which models are free by checking the "show only free models" check box(es) in the MOTO app settings.
 
 ### Installation
 
