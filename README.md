@@ -5,7 +5,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Node.js 16+](https://img.shields.io/badge/node-16+-green.svg)](https://nodejs.org/)
 
-**An autonomous AI research system that generates mathematical research papers through multi-agent aggregation and compilation. Useful for any discipline that has an interest in novel math: physicists, engineers, mathematicians, chemists, etc. This harness can easily be modified for other research topics such as general academic research, chat bots, niche research, or anything requiring useful creative output. MOTO's novel brainstorming and rejection/validation stage allows autonomous long term runtime without user intervention - if desired, research can be conducted for days or weeks without user input.**
+**An autonomous AI research system that generates novel mathematical research papers through multi-agent aggregation and compilation. Useful for any discipline that has an interest in novel math: physicists, engineers, mathematicians, chemists, etc. This harness can easily be modified for other research topics such as general academic research, chat bots, niche research, or anything requiring useful creative output. MOTO's novel brainstorming and rejection/validation stage allows autonomous long term runtime without user intervention - if desired, research can be conducted for days or weeks without user input.**
 
 **Created by [Intrafere LLC](https://intrafere.com)** | [Donate](https://intrafere.com/donate/) | [News & Updates](https://intrafere.com/moto-news/)
 
